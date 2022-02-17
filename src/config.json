@@ -5,18 +5,18 @@
   "public": false,
   "maxUploadSize": 50,
   "markdown": true,
-  "port": 80,
+  "port": 10311,
   "secure": true,
   "fileNameLength": 4,
   "shortUrlLength": 3,
-  "securePort": 443,
+  "securePort": 10312,
   "ratelimit": 1000,
   "dateURLPath": false,
   "allowed":[
     "png", "jpg", "gif", "mp4", "mp3", "jpeg", "tiff", "bmp", "ico", "psd", "eps", "raw", "cr2", "nef", "sr2", "orf", "svg", "wav", "webm", "aac", "flac", "ogg", "wma", "m4a", "gifv"
   ],
   "admin":{
-    "key": ["admin pass key goes here"],
+    "key": ["changeme"],
     "maxUploadSize": 1024,
     "allowed": [
     "png", "jpg", "gif", "mp4", "mp3","jpeg", "tiff", "bmp", "ico", "psd", "eps", "raw", "cr2", "nef", "sr2", "orf", "svg", "wav", "webm", "aac", "flac", "ogg", "wma", "m4a", "gifv", "html"
